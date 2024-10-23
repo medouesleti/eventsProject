@@ -16,7 +16,23 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <distributionManagement>
+            <repository>
+                <id>nexus</id>
+                <url>http://localhost:8081/repository/maven-releases/</url>
+            </repository>
+            <snapshotRepository>
+                <id>nexus-snapshots</id>
+                <url>http://localhost:8081/repository/maven-snapshots/</url>
+            </snapshotRepository>
+        </distributionManagement>
     </properties>
+    <scm>
+        <connection>scm:git:git://https://github.com/medouesleti/eventsProject</connection>
+        <developerConnection>scm:git:ssh://git@github.com:medouesleti/eventsProject.git</developerConnection>
+        <url>https://github.com/medouesleti/eventsProject.git</url>
+        <tag>HEAD</tag>
+    </scm>
     <dependencies>
 
         <dependency>
