@@ -26,7 +26,7 @@
         <tag>HEAD</tag>
     </scm>
 
-    <distributionManagement>
+<!--     <distributionManagement>
         <repository>
             <id>nexus</id>
             <url>http://localhost:8081/repository/maven-releases/</url>
@@ -35,7 +35,7 @@
             <id>nexus-snapshots</id>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement> -->
 
     <dependencies>
         <dependency>
